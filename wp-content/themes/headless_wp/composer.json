@@ -1,0 +1,23 @@
+{
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/wp-graphql/wp-graphql-acf/"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/pristas-peter/wp-graphql-gutenberg"
+        }
+    ],
+    "require": {
+        "wpackagist-plugin/wp-graphql":"1.6.7",
+        "wpackagist-plugin/advanced-custom-fields": "^5.11",
+        "stoutlogic/acf-builder": "^1.12",
+        "wp-graphql/wp-graphql-acf": "^0.5.3",
+        "pristas-peter/wp-graphql-gutenberg": "^0.3.11"
+    }
+}

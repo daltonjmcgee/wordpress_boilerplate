@@ -1,0 +1,791 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "663937006de6d186405461b87b95643f",
+    "packages": [
+        {
+            "name": "composer/installers",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "a241e78aaeb09781f5f5b92ac01ffd13ab43e5e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/a241e78aaeb09781f5f5b92ac01ffd13ab43e5e8",
+                "reference": "a241e78aaeb09781f5f5b92ac01ffd13ab43e5e8",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "composer/composer": "1.6.* || ^2.0",
+                "composer/semver": "^1 || ^3",
+                "phpstan/phpstan": "^0.12.55",
+                "phpstan/phpstan-phpunit": "^0.12.16",
+                "symfony/phpunit-bridge": "^5.3",
+                "symfony/process": "^5"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-main": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Dolibarr",
+                "Eliasis",
+                "Hurad",
+                "ImageCMS",
+                "Kanboard",
+                "Lan Management System",
+                "MODX Evo",
+                "MantisBT",
+                "Mautic",
+                "Maya",
+                "OXID",
+                "Plentymarkets",
+                "Porto",
+                "RadPHP",
+                "SMF",
+                "Starbug",
+                "Thelia",
+                "Whmcs",
+                "WolfCMS",
+                "agl",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "eZ Platform",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "itop",
+                "known",
+                "kohana",
+                "laravel",
+                "lavalite",
+                "lithium",
+                "magento",
+                "majima",
+                "mako",
+                "mediawiki",
+                "miaoxing",
+                "modulework",
+                "modx",
+                "moodle",
+                "osclass",
+                "pantheon",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "processwire",
+                "puppet",
+                "pxcms",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "sydes",
+                "sylius",
+                "tastyigniter",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "support": {
+                "issues": "https://github.com/composer/installers/issues",
+                "source": "https://github.com/composer/installers/tree/v2.0.1"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-09-13T08:21:20+00:00"
+        },
+        {
+            "name": "doctrine/inflector",
+            "version": "2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/doctrine/inflector.git",
+                "reference": "8b7ff3e4b7de6b2c84da85637b59fd2880ecaa89"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/8b7ff3e4b7de6b2c84da85637b59fd2880ecaa89",
+                "reference": "8b7ff3e4b7de6b2c84da85637b59fd2880ecaa89",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "^8.2",
+                "phpstan/phpstan": "^0.12",
+                "phpstan/phpstan-phpunit": "^0.12",
+                "phpstan/phpstan-strict-rules": "^0.12",
+                "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0",
+                "vimeo/psalm": "^4.10"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Doctrine\\Inflector\\": "lib/Doctrine/Inflector"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Roman Borschel",
+                    "email": "roman@code-factory.org"
+                },
+                {
+                    "name": "Benjamin Eberlei",
+                    "email": "kontakt@beberlei.de"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
+                    "name": "Johannes Schmitt",
+                    "email": "schmittjoh@gmail.com"
+                }
+            ],
+            "description": "PHP Doctrine Inflector is a small library that can perform string manipulations with regard to upper/lowercase and singular/plural forms of words.",
+            "homepage": "https://www.doctrine-project.org/projects/inflector.html",
+            "keywords": [
+                "inflection",
+                "inflector",
+                "lowercase",
+                "manipulation",
+                "php",
+                "plural",
+                "singular",
+                "strings",
+                "uppercase",
+                "words"
+            ],
+            "support": {
+                "issues": "https://github.com/doctrine/inflector/issues",
+                "source": "https://github.com/doctrine/inflector/tree/2.0.4"
+            },
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Finflector",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-10-22T20:16:43+00:00"
+        },
+        {
+            "name": "opis/json-schema",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/opis/json-schema.git",
+                "reference": "39d8072be8657a329a284339994401066406c43b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/opis/json-schema/zipball/39d8072be8657a329a284339994401066406c43b",
+                "reference": "39d8072be8657a329a284339994401066406c43b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "ext-bcmath": "*",
+                "ext-intl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "opis/string": "^1.4",
+                "phpunit/phpunit": "^6.5 || ^7.0 || ^9.4"
+            },
+            "suggest": {
+                "opis/string": "A standalone library for manipulating multibyte strings"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Opis\\JsonSchema\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sorin Sarca",
+                    "email": "sarca_sorin@hotmail.com"
+                },
+                {
+                    "name": "Marius Sarca",
+                    "email": "marius.sarca@gmail.com"
+                }
+            ],
+            "description": "Json Schema Validator",
+            "homepage": "http://www.opis.io/json-schema",
+            "keywords": [
+                "json",
+                "schema",
+                "validation",
+                "validator"
+            ],
+            "support": {
+                "issues": "https://github.com/opis/json-schema/issues",
+                "source": "https://github.com/opis/json-schema/tree/1.1.0"
+            },
+            "time": "2021-04-14T20:02:50+00:00"
+        },
+        {
+            "name": "pristas-peter/wp-graphql-gutenberg",
+            "version": "v0.3.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/pristas-peter/wp-graphql-gutenberg.git",
+                "reference": "7b2d4ca0590d2587c23b75ddb30027b44c0a80d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/pristas-peter/wp-graphql-gutenberg/zipball/7b2d4ca0590d2587c23b75ddb30027b44c0a80d4",
+                "reference": "7b2d4ca0590d2587c23b75ddb30027b44c0a80d4",
+                "shasum": ""
+            },
+            "require": {
+                "opis/json-schema": "^1.0",
+                "voku/simple_html_dom": "4.7.17"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "0.5.0",
+                "phpcompatibility/phpcompatibility-wp": "2.1.0",
+                "squizlabs/php_codesniffer": "3.5.4",
+                "wp-coding-standards/wpcs": "2.1.1"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "WPGraphqlGutenberg\\": "src/"
+                },
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "scripts": {
+                "phpcs-i": [
+                    "@php ./vendor/bin/phpcs -i"
+                ],
+                "check-cs": [
+                    "@php ./vendor/bin/phpcs"
+                ],
+                "fix-cs": [
+                    "@php ./vendor/bin/phpcbf"
+                ]
+            },
+            "description": "Query gutenberg blocks with wp-graphql",
+            "support": {
+                "source": "https://github.com/pristas-peter/wp-graphql-gutenberg/tree/v0.3.11",
+                "issues": "https://github.com/pristas-peter/wp-graphql-gutenberg/issues"
+            },
+            "time": "2021-08-16T13:38:20+00:00"
+        },
+        {
+            "name": "stoutlogic/acf-builder",
+            "version": "v1.12.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/StoutLogic/acf-builder.git",
+                "reference": "e63ab87233ea3675cd519f1dd6b6d4230b3cef97"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/StoutLogic/acf-builder/zipball/e63ab87233ea3675cd519f1dd6b6d4230b3cef97",
+                "reference": "e63ab87233ea3675cd519f1dd6b6d4230b3cef97",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/inflector": "^1.1|^2.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpdocumentor/reflection-docblock": "2.*",
+                "phpunit/phpunit": "4.*",
+                "squizlabs/php_codesniffer": "^2.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "StoutLogic\\AcfBuilder\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Steve Pfisterer",
+                    "email": "steve@stoutlogic.com"
+                }
+            ],
+            "description": "An Advanced Custom Field Configuration Builder",
+            "support": {
+                "issues": "https://github.com/StoutLogic/acf-builder/issues",
+                "source": "https://github.com/StoutLogic/acf-builder/tree/v1.12.0"
+            },
+            "time": "2021-09-17T17:32:44+00:00"
+        },
+        {
+            "name": "symfony/css-selector",
+            "version": "v5.3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/css-selector.git",
+                "reference": "7fb120adc7f600a59027775b224c13a33530dd90"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/7fb120adc7f600a59027775b224c13a33530dd90",
+                "reference": "7fb120adc7f600a59027775b224c13a33530dd90",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony/polyfill-php80": "^1.16"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\CssSelector\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Jean-François Simon",
+                    "email": "jeanfrancois.simon@sensiolabs.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Converts CSS selectors to XPath expressions",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/css-selector/tree/v5.3.4"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-07-21T12:38:00+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php80",
+            "version": "v1.23.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php80.git",
+                "reference": "1100343ed1a92e3a38f9ae122fc0eb21602547be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/1100343ed1a92e3a38f9ae122fc0eb21602547be",
+                "reference": "1100343ed1a92e3a38f9ae122fc0eb21602547be",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.23-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php80\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ion Bazan",
+                    "email": "ion.bazan@gmail.com"
+                },
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.23.1"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-07-28T13:41:28+00:00"
+        },
+        {
+            "name": "voku/simple_html_dom",
+            "version": "4.7.17",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/voku/simple_html_dom.git",
+                "reference": "804aca422f1fe0104b1320ca09fd06cd0062782c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/voku/simple_html_dom/zipball/804aca422f1fe0104b1320ca09fd06cd0062782c",
+                "reference": "804aca422f1fe0104b1320ca09fd06cd0062782c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "ext-simplexml": "*",
+                "php": ">=7.0.0",
+                "symfony/css-selector": "~3.0 || ~4.0 || ~5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~6.0 || ~7.0"
+            },
+            "suggest": {
+                "voku/portable-utf8": "If you need e.g. UTF-8 fixed output."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "voku\\helper\\": "src/voku/helper/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "dimabdc",
+                    "email": "support@titor.ru",
+                    "homepage": "http://github.com/dimabdc",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Lars Moelleken",
+                    "homepage": "http://www.moelleken.org/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Simple HTML DOM package.",
+            "homepage": "http://simplehtmldom.sourceforge.net/",
+            "keywords": [
+                "HTML Parser",
+                "dom",
+                "php dom"
+            ],
+            "support": {
+                "issues": "https://github.com/voku/simple_html_dom/issues",
+                "source": "https://github.com/voku/simple_html_dom/tree/4.7.17"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/moelleken",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/voku",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/voku",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/voku/simple_html_dom",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-04-09T21:20:43+00:00"
+        },
+        {
+            "name": "wp-graphql/wp-graphql-acf",
+            "version": "v0.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wp-graphql/wp-graphql-acf.git",
+                "reference": "0ac0529697d67192ce6b0e9fc27c5dfb3807250c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wp-graphql/wp-graphql-acf/zipball/0ac0529697d67192ce6b0e9fc27c5dfb3807250c",
+                "reference": "0ac0529697d67192ce6b0e9fc27c5dfb3807250c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1 || ^8.0"
+            },
+            "require-dev": {
+                "codeception/module-asserts": "^1.0",
+                "codeception/module-cli": "^1.0",
+                "codeception/module-db": "^1.0",
+                "codeception/module-filesystem": "^1.0",
+                "codeception/module-phpbrowser": "^1.0",
+                "codeception/module-rest": "^1.2",
+                "codeception/module-webdriver": "^1.0",
+                "codeception/util-universalframework": "^1.0",
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "lucatume/wp-browser": "^2.4",
+                "phpcompatibility/phpcompatibility-wp": "2.1.0",
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan": "^0.12.64",
+                "phpunit/phpunit": "^8.5",
+                "simpod/php-coveralls-mirror": "^3.0",
+                "squizlabs/php_codesniffer": "3.5.4",
+                "szepeviktor/phpstan-wordpress": "^0.7.1",
+                "wp-coding-standards/wpcs": "2.1.1",
+                "wp-graphql/wp-graphql-testcase": "~2.1"
+            },
+            "type": "wordpress-plugin",
+            "autoload": {
+                "psr-4": {
+                    "WPGraphQL\\ACF\\": "src/"
+                },
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "scripts": {
+                "install-test-env": [
+                    "bash bin/install-test-env.sh"
+                ],
+                "docker-build": [
+                    "bash bin/run-docker.sh build"
+                ],
+                "docker-run": [
+                    "bash bin/run-docker.sh run"
+                ],
+                "docker-destroy": [
+                    "docker-compose down"
+                ],
+                "build-and-run": [
+                    "@docker-build",
+                    "@docker-run"
+                ],
+                "build-app": [
+                    "@docker-build -a"
+                ],
+                "build-test": [
+                    "@docker-build -t"
+                ],
+                "run-app": [
+                    "@docker-run -a"
+                ],
+                "run-test": [
+                    "@docker-run -t"
+                ],
+                "lint": [
+                    "vendor/bin/phpcs"
+                ],
+                "phpcs-i": [
+                    "php ./vendor/bin/phpcs -i"
+                ],
+                "check-cs": [
+                    "php ./vendor/bin/phpcs src"
+                ],
+                "fix-cs": [
+                    "php ./vendor/bin/phpcbf src"
+                ],
+                "phpstan": [
+                    "phpstan analyze --ansi --memory-limit=1G"
+                ]
+            },
+            "license": [
+                "GPL-3.0+"
+            ],
+            "authors": [
+                {
+                    "name": "jasonbahl",
+                    "email": "jasonbahl@mac.com"
+                }
+            ],
+            "description": "Advanced Custom Fields bindings for wp-graphql",
+            "support": {
+                "source": "https://github.com/wp-graphql/wp-graphql-acf/tree/v0.5.3",
+                "issues": "https://github.com/wp-graphql/wp-graphql-acf/issues"
+            },
+            "time": "2021-07-19T22:12:00+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/advanced-custom-fields",
+            "version": "5.11.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
+                "reference": "tags/5.11.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.11.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-graphql",
+            "version": "1.6.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-graphql/",
+                "reference": "tags/1.6.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.6.7.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-graphql/"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
